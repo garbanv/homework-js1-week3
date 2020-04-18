@@ -13,3 +13,18 @@ for numbers divisible by only one of those).
 a significant percentage of programmer candidates. So if you solved it, your
 labor market value just went up.)
 */
+
+
+function printnumber(){
+    for(x=1; x <=100; x++){
+     if(x % 3 ===0 && x % 5 === 0 ){
+       console.log(x + " Migracode")
+     } else if(x % 3 ===0){
+       console.log(x + " Migra")
+     } else if( x % 5 === 0){
+       console.log(x + " Code")
+     }
+   }
+   }
+
+printnumber()

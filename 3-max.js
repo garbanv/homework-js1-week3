@@ -4,7 +4,8 @@ Given an array of numbers, create a function to return the maximum
 */
 
 function max(numbers){
-    //your code here
+    let maxnumber = Math.max.apply(null,numbers);
+  return maxnumber;
 }
 
 const numbersArray1 = [1,3,5,9];
