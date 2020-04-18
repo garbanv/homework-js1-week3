@@ -19,3 +19,16 @@ When you have a program that generates this pattern, define a binding size
 = 8 and change the program so that it works for any size, outputting a grid
 of the given width and height
 */
+
+
+function chess(size) {
+    for(var i = 0; i < size; i++) {
+        if (i % 2 === 0) {
+           console.log('# # # #');
+         } else {
+           console.log(' # # # #');
+         }
+      }
+   }
+  
+  chess(8);
