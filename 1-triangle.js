@@ -17,3 +17,6 @@ console.log(abc.length);
 */
 
 //your code here
+for (let i = "#"; i.length <= 7; i += "#") {
+    console.log(i);
+  }
