@@ -15,7 +15,7 @@ let abc = "abc";
 console.log(abc.length);
 -> 3
 */
-
+//Complete
 //your code here
 for (let i = "#"; i.length <= 7; i += "#") {
     console.log(i);

@@ -18,12 +18,19 @@ console.log(namesArray.length); //2
 
 function find(cities, letter){
 	var counter = 0;
+  for(x =0; x < cities.length; x++){
+    if(cities[x][0]===letter){
+      counter++
+      console.log(cities[x])
+    }
+  }
 	//your code here
 	return counter;
 }
 
 
 const citiesArray = ["Amsterdam", "Athens", "Barcelona", "Madrid"];
+
 
 
 console.log("Number of cities with A = " + find(citiesArray, 'A'));

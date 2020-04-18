@@ -2,6 +2,7 @@
 Max
 Given an array of numbers, create a function to return the maximum 
 */
+//Complete
 
 function max(numbers){
     let maxnumber = Math.max.apply(null,numbers);
